@@ -4,6 +4,7 @@ import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.widget.Toast;
 
 
 public class SplashActivity extends ActionBarActivity {
@@ -12,6 +13,9 @@ public class SplashActivity extends ActionBarActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_splash);
+        Word.init(this);
+
+        Toast.makeText(this, "1", Toast.LENGTH_SHORT).show();
     }
 
 
