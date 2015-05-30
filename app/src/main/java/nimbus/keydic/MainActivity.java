@@ -92,6 +92,9 @@ public class MainActivity extends ActionBarActivity {
         btnLeft.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
+                if (isCenterEmpty())
+                    return;
+
                 AlertDialog.Builder builder = new AlertDialog.Builder(MainActivity.this);
                 // 뷰 가져오기
                 LayoutInflater inflater = MainActivity.this.getLayoutInflater();
@@ -132,6 +135,9 @@ public class MainActivity extends ActionBarActivity {
         btnRight.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
+                if (isCenterEmpty())
+                    return;
+
                 AlertDialog.Builder builder = new AlertDialog.Builder(MainActivity.this);
                 // 뷰 가져오기
                 LayoutInflater inflater = MainActivity.this.getLayoutInflater();
@@ -183,6 +189,18 @@ public class MainActivity extends ActionBarActivity {
                 Toast.makeText(getApplicationContext(), "북마크에 추가되었습니다.", Toast.LENGTH_SHORT).show();
             }
         });
+    }
+
+    private boolean isCenterEmpty() {
+        if (wordCenter.equals("")) {
+            AlertDialog.Builder dialog = new AlertDialog.Builder(MainActivity.this);
+            dialog.setMessage("중앙 텍스트를 설정해주세요.");
+            dialog.setNegativeButton("확인", null);
+            dialog.show();
+            return true;
+        }
+
+        return false;
     }
 
     private void search() {
