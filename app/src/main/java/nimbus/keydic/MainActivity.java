@@ -2,6 +2,8 @@ package nimbus.keydic;
 
 import android.app.Dialog;
 import android.content.DialogInterface;
+import android.content.Intent;
+import android.content.SharedPreferences;
 import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
 import android.support.v7.app.AlertDialog;
@@ -14,6 +16,7 @@ import android.widget.AutoCompleteTextView;
 import android.widget.Button;
 import android.widget.NumberPicker;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import java.util.ArrayList;
 
@@ -22,6 +25,7 @@ public class MainActivity extends ActionBarActivity {
     private Button btnLeft;
     private Button btnRight;
     private Button btnCenter;
+    private Button btnBookMark;
     private TextView txtCombine;
     private TextView txtExample;
 
@@ -42,6 +46,7 @@ public class MainActivity extends ActionBarActivity {
         btnLeft = (Button) findViewById(R.id.btn_left);
         btnRight = (Button) findViewById(R.id.btn_right);
         btnCenter = (Button) findViewById(R.id.btn_center);
+        btnBookMark = (Button) findViewById(R.id.btn_bookmark);
         txtCombine = (TextView) findViewById(R.id.tv_combine);
         txtExample = (TextView) findViewById(R.id.tv_example);
     }
@@ -163,6 +168,21 @@ public class MainActivity extends ActionBarActivity {
                 dialog.show();
             }
         });
+
+        btnBookMark.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                SharedPreferences pref = getSharedPreferences("bookmark", MODE_PRIVATE);
+                String bookmark = pref.getString("bookmark", "");
+                int no = Word.getNo(wordLeft, wordCenter, wordRight);
+                if (no != -1) bookmark += (bookmark.equals("") ? "" : ",") + no;
+                SharedPreferences.Editor editor = pref.edit();
+                editor.putString("bookmark", bookmark);
+                editor.apply();
+
+                Toast.makeText(getApplicationContext(), "북마크에 추가되었습니다.", Toast.LENGTH_SHORT).show();
+            }
+        });
     }
 
     private void search() {
@@ -198,7 +218,9 @@ public class MainActivity extends ActionBarActivity {
         int id = item.getItemId();
 
         //noinspection SimplifiableIfStatement
-        if (id == R.id.action_settings) {
+        if (id == R.id.action_bookmark) {
+            Intent intent = new Intent(getApplicationContext(), BookmarkActivity.class);
+            startActivity(intent);
             return true;
         }
 

@@ -12,13 +12,11 @@ public class BookmarkActivity extends ActionBarActivity {
     ListView listView;
     WordItemAdapter arrayAdapter;
     String[] keyValue;
-    String test[] = {"1","3","5","31","3","200","49"};
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_bookmark);
-        Word.init(this);
 
         SharedPreferences prefs = getSharedPreferences("bookmark", MODE_PRIVATE);
         String result = prefs.getString("bookmark", "0"); //키값, 디폴트값
@@ -28,14 +26,15 @@ public class BookmarkActivity extends ActionBarActivity {
         arrayAdapter = new WordItemAdapter();
         listView.setAdapter(arrayAdapter);
 
-        for (String key : test) {
-            Word word = Word.get(Integer.parseInt(key));
+        for (String key : keyValue) {
+            if (key.equals(""))
+                continue;
 
+            Word word = Word.get(Integer.parseInt(key));
             String left = word.getLeft();
             String right = word.getRight();
             String center = word.getCenter();
             String example = word.getExample();
-
             arrayAdapter.add(left +" " + center +" " + right + "\n" + example);
         }
     }

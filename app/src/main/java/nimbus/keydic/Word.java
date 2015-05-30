@@ -8,6 +8,7 @@ import java.util.ArrayList;
  * Created by InJung on 2015. 5. 30..
  */
 public class Word {
+    private int mNo;
     private String mLeft;
     private String mCenter;
     private String mRight;
@@ -22,13 +23,21 @@ public class Word {
         return wordList.get(_index);
     }
 
-    public static Word findWord(String _center) {
+    public static int getNo(String _left, String _center, String _right) {
         for (Word word : wordList) {
-            if (word.mCenter.equals(_center))
-                return word;
+            if (!word.mCenter.equals(_center))
+                continue;
+
+            if (!word.mLeft.equals(_left))
+                continue;
+
+            if (!word.mRight.equals(_right))
+                continue;
+
+            return word.mNo;
         }
 
-        return null;
+        return -1;
     }
 
     public static Word search(String _left, String _center, String _right) {
@@ -85,16 +94,21 @@ public class Word {
         wordList = new ArrayList<Word>();
         String[] words = _context.getResources().getStringArray(R.array.words);
         for (int i = 0; i < words.length / 5; i++) {
-            Word word = new Word(words[i * 5 + 1], words[i * 5 + 2], words[i * 5 + 3], words[i * 5 + 4]);
+            Word word = new Word(i, words[i * 5 + 1], words[i * 5 + 2], words[i * 5 + 3], words[i * 5 + 4]);
             wordList.add(word);
         }
     }
 
-    public Word(String _left, String _center, String _right, String _example) {
+    public Word(int _no, String _left, String _center, String _right, String _example) {
+        mNo = _no + 1;
         mLeft = _left.equals("blank") ? "" : _left;
         mCenter = _center;
         mRight = _right.equals("blank") ? "" : _right;
         mExample = _example;
+    }
+
+    public int getNo() {
+        return mNo;
     }
 
     public String getLeft() {
