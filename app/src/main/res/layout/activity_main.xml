@@ -27,14 +27,14 @@
         android:layout_height="wrap_content" />
 
     <TextView
-        android:id="@+id/txt_combine"
+        android:id="@+id/tv_combine"
         android:layout_below="@+id/btn_center"
         android:layout_width="match_parent"
         android:layout_height="wrap_content" />
 
     <TextView
-        android:id="@+id/txt_example"
-        android:layout_below="@+id/txt_combine"
+        android:id="@+id/tv_example"
+        android:layout_below="@+id/tv_combine"
         android:layout_width="match_parent"
         android:layout_height="wrap_content" />
 

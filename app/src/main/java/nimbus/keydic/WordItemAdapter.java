@@ -16,19 +16,20 @@ import java.util.ArrayList;
  */
 public class WordItemAdapter extends BaseAdapter {
 
-    private ArrayList<String> m_List;
+    private ArrayList<String> list;
 
     public WordItemAdapter() {
-        m_List = new ArrayList<String>();
+        list = new ArrayList<String>();
     }
+
     @Override
     public int getCount() {
-       return m_List.size();
+       return list.size();
     }
 
     @Override
     public Object getItem(int position) {
-        return m_List.get(position);
+        return list.get(position);
     }
 
     @Override
@@ -41,42 +42,37 @@ public class WordItemAdapter extends BaseAdapter {
         final int pos = position;
         final Context context = viewGroup.getContext();
         if ( view == null ) {
-
             LayoutInflater inflater = (LayoutInflater) context.getSystemService(Context.LAYOUT_INFLATER_SERVICE);
             view = inflater.inflate(R.layout.word_item, viewGroup, false);
 
             TextView text = (TextView) view.findViewById(R.id.tv_item);
-            text.setText(m_List.get(position));
+            text.setText(list.get(position));
 
-            Button btn = (Button) view.findViewById(R.id.bt_delete);
+            Button btn = (Button) view.findViewById(R.id.btn_delete);
             btn.setOnClickListener(new View.OnClickListener() {
-
                 @Override
                 public void onClick(View v) {
 
-                    Toast.makeText(context, m_List.get(pos) +"\n"+"Delete", Toast.LENGTH_SHORT).show();
-                     m_List.remove(pos);
+                    Toast.makeText(context, list.get(pos) +"\n"+"Delete", Toast.LENGTH_SHORT).show();
+                     list.remove(pos);
                 }
             });
 
-
             // 리스트 아이템을 터치 했을 때 이벤트 발생
             view.setOnClickListener(new View.OnClickListener() {
-
                 @Override
                 public void onClick(View v) {
                     // 터치 시 해당 아이템 이름 출력
-                    Toast.makeText(context, "리스트 클릭 : " + m_List.get(pos), Toast.LENGTH_SHORT).show();
+                    Toast.makeText(context, "리스트 클릭 : " + list.get(pos), Toast.LENGTH_SHORT).show();
                 }
             });
 
             // 리스트 아이템을 길게 터치 했을 떄 이벤트 발생
             view.setOnLongClickListener(new View.OnLongClickListener() {
-
                 @Override
                 public boolean onLongClick(View v) {
                     // 터치 시 해당 아이템 이름 출력
-                    Toast.makeText(context, "리스트 롱 클릭 : " + m_List.get(pos), Toast.LENGTH_SHORT).show();
+                    Toast.makeText(context, "리스트 롱 클릭 : " + list.get(pos), Toast.LENGTH_SHORT).show();
                     return true;
                 }
             });
@@ -84,10 +80,12 @@ public class WordItemAdapter extends BaseAdapter {
 
         return view;
     }
+
     public void add(String _msg) {
-        m_List.add(_msg);
+        list.add(_msg);
     }
+
     public void remove(int _position) {
-        m_List.remove(_position);
+        list.remove(_position);
     }
 }

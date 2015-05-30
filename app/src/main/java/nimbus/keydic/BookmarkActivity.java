@@ -7,8 +7,7 @@ import android.view.Menu;
 import android.view.MenuItem;
 import android.widget.ListView;
 
-
-public class Bookmark extends ActionBarActivity {
+public class BookmarkActivity extends ActionBarActivity {
 
     ListView listView;
     WordItemAdapter arrayAdapter;
@@ -21,35 +20,25 @@ public class Bookmark extends ActionBarActivity {
         setContentView(R.layout.activity_bookmark);
         Word.init(this);
 
-        SharedPreferences prefs =getSharedPreferences("bookmark", MODE_PRIVATE);
-
+        SharedPreferences prefs = getSharedPreferences("bookmark", MODE_PRIVATE);
         String result = prefs.getString("bookmark", "0"); //키값, 디폴트값
-
-        keyValue = result.split("'");
+        keyValue = result.split(",");
 
         listView = (ListView)findViewById(R.id.lv_bookmark);
-
         arrayAdapter = new WordItemAdapter();
-
         listView.setAdapter(arrayAdapter);
 
+        for (String key : test) {
+            Word word = Word.get(Integer.parseInt(key));
 
-        for (int i=0; i<test.length;i++) {
-
-            Word wordTest = Word.get(Integer.parseInt(test[i]));
-
-            String left = wordTest.getLeft();
-            String right = wordTest.getRight();
-            String center = wordTest.getCenter();
-            String example = wordTest.getExample();
+            String left = word.getLeft();
+            String right = word.getRight();
+            String center = word.getCenter();
+            String example = word.getExample();
 
             arrayAdapter.add(left +" " + center +" " + right + "\n" + example);
         }
-
-
-
     }
-
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {

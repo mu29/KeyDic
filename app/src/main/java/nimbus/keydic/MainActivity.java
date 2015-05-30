@@ -42,8 +42,8 @@ public class MainActivity extends ActionBarActivity {
         btnLeft = (Button) findViewById(R.id.btn_left);
         btnRight = (Button) findViewById(R.id.btn_right);
         btnCenter = (Button) findViewById(R.id.btn_center);
-        txtCombine = (TextView) findViewById(R.id.txt_combine);
-        txtExample = (TextView) findViewById(R.id.txt_example);
+        txtCombine = (TextView) findViewById(R.id.tv_combine);
+        txtExample = (TextView) findViewById(R.id.tv_example);
     }
 
     private void setAllListeners() {
