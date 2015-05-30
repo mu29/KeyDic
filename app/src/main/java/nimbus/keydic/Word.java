@@ -100,7 +100,7 @@ public class Word {
     }
 
     public Word(int _no, String _left, String _center, String _right, String _example) {
-        mNo = _no + 1;
+        mNo = _no;
         mLeft = _left.equals("blank") ? "" : _left;
         mCenter = _center;
         mRight = _right.equals("blank") ? "" : _right;

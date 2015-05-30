@@ -8,6 +8,7 @@
 
     <Button
         android:id="@+id/btn_left"
+        android:text="LEFT"
         android:layout_toLeftOf="@+id/btn_center"
         android:layout_alignBottom="@+id/btn_center"
         android:layout_width="wrap_content"
@@ -15,12 +16,14 @@
 
     <Button
         android:id="@+id/btn_center"
+        android:text="CENTER"
         android:layout_centerHorizontal="true"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content" />
 
     <Button
         android:id="@+id/btn_right"
+        android:text="RIGHT"
         android:layout_toRightOf="@+id/btn_center"
         android:layout_alignBottom="@+id/btn_center"
         android:layout_width="wrap_content"
@@ -40,6 +43,7 @@
 
     <Button
         android:id="@+id/btn_bookmark"
+        android:text="BOOKMARK +"
         android:layout_centerHorizontal="true"
         android:layout_below="@+id/tv_example"
         android:layout_width="wrap_content"

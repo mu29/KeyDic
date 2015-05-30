@@ -1,6 +1,7 @@
 package nimbus.keydic;
 
 import android.content.Context;
+import android.content.SharedPreferences;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -8,7 +9,6 @@ import android.widget.BaseAdapter;
 import android.widget.Button;
 import android.widget.TextView;
 import android.widget.Toast;
-
 import java.util.ArrayList;
 
 /**
@@ -41,42 +41,59 @@ public class WordItemAdapter extends BaseAdapter {
     public View getView(int position, View view, ViewGroup viewGroup) {
         final int pos = position;
         final Context context = viewGroup.getContext();
-        if ( view == null ) {
+        CustomHolder holder;
+
+        if (view == null) {
             LayoutInflater inflater = (LayoutInflater) context.getSystemService(Context.LAYOUT_INFLATER_SERVICE);
             view = inflater.inflate(R.layout.word_item, viewGroup, false);
-
-            TextView text = (TextView) view.findViewById(R.id.tv_item);
-            text.setText(list.get(position));
-
-            Button btn = (Button) view.findViewById(R.id.btn_delete);
-            btn.setOnClickListener(new View.OnClickListener() {
-                @Override
-                public void onClick(View v) {
-
-                    Toast.makeText(context, list.get(pos) +"\n"+"Delete", Toast.LENGTH_SHORT).show();
-                     list.remove(pos);
-                }
-            });
-
-            // 리스트 아이템을 터치 했을 때 이벤트 발생
-            view.setOnClickListener(new View.OnClickListener() {
-                @Override
-                public void onClick(View v) {
-                    // 터치 시 해당 아이템 이름 출력
-                    Toast.makeText(context, "리스트 클릭 : " + list.get(pos), Toast.LENGTH_SHORT).show();
-                }
-            });
-
-            // 리스트 아이템을 길게 터치 했을 떄 이벤트 발생
-            view.setOnLongClickListener(new View.OnLongClickListener() {
-                @Override
-                public boolean onLongClick(View v) {
-                    // 터치 시 해당 아이템 이름 출력
-                    Toast.makeText(context, "리스트 롱 클릭 : " + list.get(pos), Toast.LENGTH_SHORT).show();
-                    return true;
-                }
-            });
+            holder = new CustomHolder();
+            holder.mTextView = (TextView) view.findViewById(R.id.tv_item);
+            holder.mButton = (Button) view.findViewById(R.id.btn_delete);
+            view.setTag(holder);
         }
+        else {
+            holder = (CustomHolder) view.getTag();
+        }
+
+        holder.mTextView.setText(list.get(position));
+        holder.mButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                SharedPreferences pref = context.getSharedPreferences("bookmark", Context.MODE_PRIVATE);
+                String bookmark = pref.getString("bookmark", "");
+                String[] temp = bookmark.split(",");
+                String delete_result = "";
+
+                for (int i = 0; i < temp.length - 1; i++) {
+                    if (i == pos) continue;
+                    delete_result += temp[i] + ",";
+                }
+                if (pos != temp.length - 1)
+                    delete_result += temp[temp.length - 1];
+
+                SharedPreferences.Editor editor = pref.edit();
+                editor.putString("bookmark", delete_result);
+                editor.apply();
+
+                list.remove(pos);
+                notifyDataSetChanged();
+            }
+        });
+
+        view.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Toast.makeText(context, "리스트 클릭 : " + list.get(pos), Toast.LENGTH_SHORT).show();
+            }
+        });
+
+        view.setOnLongClickListener(new View.OnLongClickListener() {
+            @Override
+            public boolean onLongClick(View v) {
+                Toast.makeText(context, "리스트 롱 클릭 : "+list.get(pos), Toast.LENGTH_SHORT).show();
+                return true;
+            }
+        });
 
         return view;
     }
@@ -87,5 +104,10 @@ public class WordItemAdapter extends BaseAdapter {
 
     public void remove(int _position) {
         list.remove(_position);
+    }
+
+    private class CustomHolder {
+        TextView mTextView;
+        Button mButton;
     }
 }
