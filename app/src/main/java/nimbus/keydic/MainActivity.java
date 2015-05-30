@@ -46,42 +46,39 @@ public class MainActivity extends ActionBarActivity {
         txtExample = (TextView) findViewById(R.id.txt_example);
     }
 
-    DialogInterface.OnClickListener click = new DialogInterface.OnClickListener() {
-        @Override
-        public void onClick(DialogInterface dialogInterface, int i) {
-        }
-    };
-
-    DialogInterface.OnClickListener insertCenter = new DialogInterface.OnClickListener() {
-        @Override
-        public void onClick(DialogInterface dialogInterface, int i) {
-
-        }
-    };
-
     private void setAllListeners() {
         btnCenter.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 AlertDialog.Builder builder = new AlertDialog.Builder(MainActivity.this);
+                // 뷰 가져오기
                 LayoutInflater inflater = MainActivity.this.getLayoutInflater();
                 View v = inflater.inflate(R.layout.controls, null);
                 final AutoCompleteTextView textView = (AutoCompleteTextView) v.findViewById(R.id.search);
                 textView.setVisibility(View.VISIBLE);
-                ArrayAdapter<String> adapter = new ArrayAdapter<String>(MainActivity.this, android.R.layout.simple_dropdown_item_1line, Word.getAllWords());
+                // 자동 완성 텍스트 리스트
+                ArrayAdapter<String> adapter = new ArrayAdapter<String>(MainActivity.this,
+                        android.R.layout.simple_dropdown_item_1line, Word.getAllWords());
                 textView.setAdapter(adapter);
 
+                // 다이얼로그 설정
                 builder.setCancelable(true);
                 builder.setPositiveButton(R.string.confirm, new DialogInterface.OnClickListener() {
                     @Override
                     public void onClick(DialogInterface dialogInterface, int i) {
                         wordCenter = textView.getText().toString().trim();
                         btnCenter.setText(wordCenter);
+                        wordLeft = "";
+                        btnLeft.setText(wordLeft);
+                        wordRight = "";
+                        btnRight.setText(wordRight);
+                        search();
                     }
                 });
                 builder.setNegativeButton(R.string.cancel, null);
                 builder.setView(v);
 
+                // 다이얼로그 생성
                 Dialog dialog = builder.create();
                 dialog.show();
             }
@@ -91,9 +88,10 @@ public class MainActivity extends ActionBarActivity {
             @Override
             public void onClick(View view) {
                 AlertDialog.Builder builder = new AlertDialog.Builder(MainActivity.this);
+                // 뷰 가져오기
                 LayoutInflater inflater = MainActivity.this.getLayoutInflater();
                 View v = inflater.inflate(R.layout.controls, null);
-                NumberPicker picker = (NumberPicker) v.findViewById(R.id.picker);
+                final NumberPicker picker = (NumberPicker) v.findViewById(R.id.picker);
                 // 피커 클리어
                 picker.setMaxValue(0);
                 picker.setDisplayedValues(new String[] { " " });
@@ -107,19 +105,76 @@ public class MainActivity extends ActionBarActivity {
                 picker.clearFocus();
                 picker.setVisibility(View.VISIBLE);
 
+                // 다이얼로그 설정
                 builder.setCancelable(true);
-                builder.setPositiveButton(R.string.confirm, click);
+                builder.setPositiveButton(R.string.confirm, new DialogInterface.OnClickListener() {
+                    @Override
+                    public void onClick(DialogInterface dialogInterface, int i) {
+                        wordLeft = picker.getDisplayedValues()[picker.getValue()];
+                        btnLeft.setText(wordLeft);
+                        search();
+                    }
+                });
                 builder.setNegativeButton(R.string.cancel, null);
                 builder.setView(v);
 
+                // 다이얼로그 생성
+                Dialog dialog = builder.create();
+                dialog.show();
+            }
+        });
+
+        btnRight.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                AlertDialog.Builder builder = new AlertDialog.Builder(MainActivity.this);
+                // 뷰 가져오기
+                LayoutInflater inflater = MainActivity.this.getLayoutInflater();
+                View v = inflater.inflate(R.layout.controls, null);
+                final NumberPicker picker = (NumberPicker) v.findViewById(R.id.picker);
+                // 피커 클리어
+                picker.setMaxValue(0);
+                picker.setDisplayedValues(new String[] { " " });
+                // 피커 값을 세팅
+                String[] values = getPickerValue(1);
+                picker.setDisplayedValues(values);
+                picker.setMaxValue(values.length - 1);
+                // 피커를 리프레쉬
+                picker.setValue(0);
+                picker.requestLayout();
+                picker.clearFocus();
+                picker.setVisibility(View.VISIBLE);
+
+                // 다이얼로그 설정
+                builder.setCancelable(true);
+                builder.setPositiveButton(R.string.confirm, new DialogInterface.OnClickListener() {
+                    @Override
+                    public void onClick(DialogInterface dialogInterface, int i) {
+                        wordRight = picker.getDisplayedValues()[picker.getValue()];
+                        btnRight.setText(wordRight);
+                        search();
+                    }
+                });
+                builder.setNegativeButton(R.string.cancel, null);
+                builder.setView(v);
+
+                // 다이얼로그 생성
                 Dialog dialog = builder.create();
                 dialog.show();
             }
         });
     }
 
+    private void search() {
+        Word result = Word.search(wordLeft, wordCenter, wordRight);
+        if (result != null) {
+            txtCombine.setText(wordLeft + " " + wordCenter + " " + wordRight);
+            txtExample.setText(result.getExample());
+        }
+    }
+
     private String[] getPickerValue(int _direction) {
-        ArrayList<Word> words = Word.findWords(wordLeft, wordCenter, wordRight);
+        ArrayList<Word> words = Word.findWords(_direction == 0 ? "" : wordLeft, wordCenter, _direction == 0 ? wordRight : "");
         String[] values = new String[words.size()];
         for (int i = 0; i < words.size(); i++) {
             values[i] = _direction == 0 ? words.get(i).getLeft() : words.get(i).getRight();
