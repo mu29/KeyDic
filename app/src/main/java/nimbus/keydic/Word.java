@@ -31,6 +31,33 @@ public class Word {
         return null;
     }
 
+    public static String[] getAllWords() {
+        String[] values = new String[wordList.size()];
+        for (int i = 0; i < wordList.size(); i++)
+            values[i] = wordList.get(i).getCenter();
+
+        return values;
+    }
+
+    public static ArrayList<Word> findWords(String _left, String _center, String _right) {
+        ArrayList<Word> words = new ArrayList<>();
+        for (Word word : wordList) {
+            if (!word.mCenter.equals(_center))
+                continue;
+
+            if (!_left.equals("") && word.mLeft.equals(_left))
+                words.add(word);
+
+            if (!_right.equals("") && word.mRight.equals(_right))
+                words.add(word);
+
+            if (_left.equals("") && _right.equals(""))
+                words.add(word);
+        }
+
+        return words;
+    }
+
     public static void init(final Context _context) {
         wordList = new ArrayList<Word>();
         String[] words = _context.getResources().getStringArray(R.array.words);
