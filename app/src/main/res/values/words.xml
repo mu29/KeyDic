@@ -1,0 +1,2351 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+
+    <string-array name="words">
+
+        <item>1</item>
+        <item>blank</item>
+        <item>absolute zero</item>
+        <item>blank</item>
+        <item>Absolute zero is a theoretical temperature that is thought to be the lowest possible temperature.</item>
+
+
+
+        <item>2</item>
+        <item>blank</item>
+        <item>accuracy</item>
+        <item>blank</item>
+        <item>The accuracy of information or measurements is their quality of being true or correct, even in small details.</item>
+
+
+
+        <item>3</item>
+        <item>blank</item>
+        <item>acid</item>
+        <item>blank</item>
+        <item>An acid is a chemical substance, usually a liquid, which contains hydrogen and can react with other substances to form salts. Some acids burn or dissolve other substances that they come into contact with.</item>
+
+
+
+        <item>4</item>
+        <item>acetic</item>
+        <item>acid</item>
+        <item>in</item>
+        <item>Determination of acetic acid in vinegar</item>
+
+
+
+        <item>5</item>
+        <item>stearic</item>
+        <item>acid</item>
+        <item>solustion</item>
+        <item>Calculate the volume(V) of stearic acid solution required to form the monolayer.</item>
+
+
+
+        <item>6</item>
+        <item>blank</item>
+        <item>aluminum foil</item>
+        <item>blank</item>
+        <item>Aluminium foil is aluminium prepared in thin metal leaves, with a thickness less than 0.2 millimetres (8 mils), thinner gauges down to 6 micrometres(0.2 mils) are also commonly used.</item>
+
+
+
+        <item>7</item>
+        <item>blank</item>
+        <item>approximately</item>
+        <item>blank</item>
+        <item>An approximate number, time, or position is close to the correct number, time, or position, but is not exact.</item>
+
+
+
+        <item>8</item>
+        <item>add</item>
+        <item>approximately</item>
+        <item>mL</item>
+        <item>Add approximately 3 mL of unknown liquid sample into the round flask and close the lid tightly.</item>
+
+
+
+        <item>9</item>
+        <item>blank</item>
+        <item>atom</item>
+        <item>blank</item>
+        <item>An atom is the smallest amount of a substance that can take part in a chemical reaction.</item>
+
+
+
+        <item>10</item>
+        <item>central</item>
+        <item>atom</item>
+        <item>blank</item>
+        <item>If we assume that the four pairs of electrons around the central atom are in the same orientation whether they are in bonds or are unshared pairs, we can predict the correct shapes of NH3 and H2O.</item>
+
+
+
+        <item>11</item>
+        <item>hydrogen</item>
+        <item>atom</item>
+        <item>blank</item>
+        <item>An organic molecule containing a carbonyl group whose carbon is bonded either to one carbon atom and one hydrogen atom or to two hydrogen atoms.</item>
+
+
+
+        <item>12</item>
+        <item>each</item>
+        <item>atom</item>
+        <item>blank</item>
+        <item>Electrons shared until each atom surrounded by four pairs of electrons (an octet).</item>
+
+
+
+        <item>13</item>
+        <item>oxygen</item>
+        <item>atom</item>
+        <item>blank</item>
+        <item>The manufacturer knows that oxygen almost always has only two bonds and assumes that you will keep in mind that there are also two unshared pairs of electrons around each oxygen atom.</item>
+
+
+
+        <item>14</item>
+        <item>electronegative</item>
+        <item>atom</item>
+        <item>blank</item>
+        <item>highly electronegative atom</item>
+
+
+
+        <item>15</item>
+        <item>neutral</item>
+        <item>atom</item>
+        <item>blank</item>
+        <item>The electron affinity of an atom or molecule is defined as the amount of energy released when an electron is added to a neutral atom or molecule to form a negative ion.</item>
+
+
+
+        <item>16</item>
+        <item>carbon</item>
+        <item>atom</item>
+        <item>of</item>
+        <item>With the Delete tool active, click the last but one carbon atom of the main chain as shown on the pictur</item>
+
+
+
+        <item>17</item>
+        <item>blank</item>
+        <item>atom</item>
+        <item>attached</item>
+        <item>Similarly, whenever there is a triple bond, the two atoms in the bond plus the additional atom attached to each of them are all collinear.</item>
+
+
+
+        <item>18</item>
+        <item>blank</item>
+        <item>atom</item>
+        <item>in</item>
+        <item>What are the molecular shape (around the C atom in the first three and the N atom in the fluoramine), and polarity of these compounds?</item>
+
+
+
+        <item>19</item>
+        <item>blank</item>
+        <item>atom</item>
+        <item>to</item>
+        <item>Click the leftmost carbon atom to replace it with a fluorine one.</item>
+
+
+
+        <item>20</item>
+        <item>blank</item>
+        <item>atom</item>
+        <item>with</item>
+        <item>To replace an atom with a new element whose button is not displayed on the Atoms toolbar, follow the steps.</item>
+
+
+
+        <item>21</item>
+        <item>blank</item>
+        <item>atom</item>
+        <item>bonded</item>
+        <item>An organic molecule containing an oxygen atom bonded to two carbon atoms</item>
+
+
+
+        <item>22</item>
+        <item>blank</item>
+        <item>beaker</item>
+        <item>blank</item>
+        <item>A beaker is a plastic cup used for drinking, usually one with no handle.</item>
+
+
+
+        <item>23</item>
+        <item>each</item>
+        <item>beaker</item>
+        <item>blank</item>
+        <item>The levels of the liquid in each beaker at the beginning of the experiment are the same, as pictured below. Draw the levels of the liquid in each beaker after equilibrium has been reached.</item>
+
+
+
+        <item>24</item>
+        <item>blank</item>
+        <item>boiling</item>
+        <item>blank</item>
+        <item>Something that is boiling or boiling hot is very hot.</item>
+
+
+
+        <item>25</item>
+        <item>minimum</item>
+        <item>boiling</item>
+        <item>azeotrope</item>
+        <item>Minimum-boiling azeotrope</item>
+
+
+
+        <item>26</item>
+        <item>higher</item>
+        <item>boiling</item>
+        <item>point</item>
+        <item>Stronger intermolecular forces result in higher boiling point.</item>
+
+
+
+        <item>27</item>
+        <item>blank</item>
+        <item>boiling</item>
+        <item>point</item>
+        <item>The boiling point can be calculated using one of several methods.</item>
+
+
+
+        <item>28</item>
+        <item>blank</item>
+        <item>bond</item>
+        <item>blank</item>
+        <item>the way in which atoms are held together in a chemical compound</item>
+
+
+
+        <item>29</item>
+        <item>covalent</item>
+        <item>bond</item>
+        <item>blank</item>
+        <item>We will use a line instead of two dots to represent a pair of electrons when they are in a covalent bond.</item>
+
+
+
+        <item>30</item>
+        <item>double</item>
+        <item>bond</item>
+        <item>blank</item>
+        <item>Whenever there is a double bond, the 2 atoms involved in the bond and the 2 atoms attached to each of them are all coplanar.</item>
+
+
+
+        <item>31</item>
+        <item>chemical</item>
+        <item>bond</item>
+        <item>blank</item>
+        <item>Measure of the strength of a chemical bond</item>
+
+
+
+        <item>32</item>
+        <item>triple</item>
+        <item>bond</item>
+        <item>blank</item>
+        <item>Similarly, whenever there is a triple bond, the two atoms in the bond plus the additional atom attached to each of them are all collinear.</item>
+
+
+
+        <item>33</item>
+        <item>covalent</item>
+        <item>bond</item>
+        <item>formation</item>
+        <item>In covalent bond formation, atoms go as far as possible toward completing their octet by sharing electron pairs.</item>
+
+
+
+        <item>34</item>
+        <item>covalent</item>
+        <item>bond</item>
+        <item>bond</item>
+        <item>Indicate covalent single bond by a single line.</item>
+
+
+
+        <item>35</item>
+        <item>valence</item>
+        <item>bond</item>
+        <item>theory</item>
+        <item>Valence-Bond Theory</item>
+
+
+
+        <item>36</item>
+        <item>mean</item>
+        <item>bond</item>
+        <item>enthalpy</item>
+        <item>Mean bond enthalpy</item>
+
+
+
+        <item>37</item>
+        <item>blank</item>
+        <item>bond</item>
+        <item>lengths</item>
+        <item>To standardize all the bond lengths and angles in the drawn structure (clean the structure), follow the steps.</item>
+
+
+
+        <item>38</item>
+        <item>blank</item>
+        <item>bond</item>
+        <item>strengths</item>
+        <item>Predict and explain relative bond strengths and lengths.</item>
+
+
+
+        <item>39</item>
+        <item>blank</item>
+        <item>Boyle\'s Law</item>
+        <item>blank</item>
+        <item>the principle that the pressure of a gas varies inversely with its volume at constant temperature</item>
+
+
+
+        <item>40</item>
+        <item>blank</item>
+        <item>calculate</item>
+        <item>blank</item>
+        <item>If you calculate a number or amount, you discover it from information that you already have, by using arithmetic, mathematics, or a special machine.</item>
+
+
+
+        <item>41</item>
+        <item>to</item>
+        <item>calculate</item>
+        <item>blank</item>
+		<item>Use this, the concentration of the titrant, and the stoichiometry of the
+titration reaction to calculate the number of moles of reactant in your
+analyte solution.</item>
+
+
+
+        <item>42</item>
+        <item>blank</item>
+        <item>chemical</item>
+        <item>blank</item>
+        <item>Chemical means involving or resulting from a reaction between two or more substances, or relating to the substances that something consists of.</item>
+
+
+
+        <item>43</item>
+        <item>blank</item>
+        <item>chemical</item>
+        <item>reactions</item>
+        <item>Knowledge of the kinetics of the chemical reactions that break down certain chemicals present in a food or drug can be used to determine how potent or unsafe a food or drug may be after a certain period of time.</item>
+
+
+
+        <item>44</item>
+        <item>blank</item>
+        <item>chemical</item>
+        <item>bond</item>
+        <item>Measure of the strength of a chemical bond.</item>
+
+
+
+        <item>45</item>
+        <item>blank</item>
+        <item>chemical</item>
+        <item>properties</item>
+		<item>In the qualitative analysis procedure, the chemical properties of an unknown substance are determined by systematically reacting the unknown with a
+number of different reagents</item>
+
+
+
+        <item>46</item>
+        <item>blank</item>
+        <item>chemical</item>
+        <item>formula</item>
+        <item>On the basis of the expected charges on the monatomic ions, give the chemical formula of each of the following compounds.</item>
+
+
+
+        <item>47</item>
+        <item>blank</item>
+        <item>colorless</item>
+        <item>blank</item>
+        <item>Something that is colorless has no color at all.</item>
+
+
+
+        <item>48</item>
+        <item>blank</item>
+        <item>compound</item>
+        <item>blank</item>
+        <item>a substance formed by a chemical reaction of two or more elements in fixed amounts relative to each other</item>
+
+
+
+        <item>49</item>
+        <item>ionic</item>
+        <item>compound</item>
+        <item>blank</item>
+        <item>Ionic compounds formed from the representative elements tend to be white or colorless, while ions of transition elements tend to be colored.</item>
+
+
+
+        <item>50</item>
+        <item>blank</item>
+        <item>concentration</item>
+        <item>blank</item>
+        <item>the amount of a substance in a liquid or in another substance</item>
+
+
+
+        <item>51</item>
+        <item>ion</item>
+        <item>concentration</item>
+        <item>for</item>
+        <item>The hydronium ion concentration for lemon juice is approximately 0.0025.</item>
+
+
+
+        <item>52</item>
+        <item>accurate</item>
+        <item>concentration</item>
+        <item>of</item>
+        <item>A volumetric flask should be used whenever an accurate concentration of solution is required.</item>
+
+
+
+        <item>53</item>
+        <item>blank</item>
+        <item>constant</item>
+        <item>blank</item>
+        <item>You use constant to describe something that happens all the time or is always there.</item>
+
+
+
+        <item>54</item>
+        <item>equilibrium</item>
+        <item>constant</item>
+        <item>blank</item>
+        <item>If one starts with a higher pressure of reactant, the equilibrium constant will be larger.</item>
+
+
+
+        <item>55</item>
+        <item>at</item>
+        <item>constant</item>
+        <item>pressure</item>
+        <item>Charles\' Law states: The volume of a given mass of a gas at constant pressure is directly proportional to its absolute temperature.</item>
+
+
+
+        <item>56</item>
+        <item>at</item>
+        <item>constant</item>
+        <item>volume</item>
+		<item>Transfer enough energy at constant volume to raise the temperature
+to its final value</item>
+
+
+
+        <item>57</item>
+        <item>at</item>
+        <item>constant</item>
+        <item>temperature</item>
+        <item>The rate of the reaction at constant temperature and ionic strength can be expressed as the change in concentration of a reagent or product over the change in time and can be equated to the rate law expression.</item>
+
+
+
+        <item>58</item>
+        <item>blank</item>
+        <item>convert</item>
+        <item>blank</item>
+        <item>If one thing is converted or converts into another, it is changed into a different form.</item>
+
+
+
+        <item>59</item>
+        <item>blank</item>
+        <item>cork</item>
+        <item>blank</item>
+        <item>Cork is a soft, light substance which forms the bark of a type of Mediterranean tree.</item>
+
+
+
+        <item>60</item>
+        <item>blank</item>
+        <item>corrosive</item>
+        <item>blank</item>
+        <item>A corrosive substance is able to destroy solid materials by a chemical reaction.</item>
+
+
+
+        <item>61</item>
+        <item>blank</item>
+        <item>covalent</item>
+        <item>blank</item>
+        <item>sharing a pair of electrons</item>
+
+
+
+        <item>62</item>
+        <item>polar</item>
+        <item>covalent</item>
+        <item>bonds</item>
+        <item>Polar Covalent Bonds</item>
+
+
+
+        <item>63</item>
+        <item>blank</item>
+        <item>covalent</item>
+        <item>bonds</item>
+        <item>Octet rule used to determine number of covalent bonds formed by an element.</item>
+
+
+
+        <item>64</item>
+        <item>blank</item>
+        <item>crystal</item>
+        <item>blank</item>
+        <item>crystal is a small piece of a substance that has formed naturally into a regular symmetrical shape.</item>
+
+
+
+        <item>65</item>
+        <item>single</item>
+        <item>crystal</item>
+        <item>blank</item>
+        <item>Calculating the number of a unit cell in a single crystal.</item>
+
+
+
+        <item>66</item>
+        <item>blank</item>
+        <item>crystal</item>
+        <item>structures</item>
+        <item>Determination of crystal structures</item>
+
+
+
+        <item>67</item>
+        <item>blank</item>
+        <item>density</item>
+        <item>blank</item>
+        <item>the thickness of a solid, liquid, or gas measured by its mass per unit of volume</item>
+
+
+
+        <item>68</item>
+        <item>electron</item>
+        <item>density</item>
+        <item>blank</item>
+		<item>There is no distinction between single and multiple bonds:
+a multiple bond is treated as a single region of high electron density.</item>
+
+
+
+        <item>69</item>
+        <item>probability</item>
+        <item>density</item>
+        <item>blank</item>
+        <item>Probability density of finding a particle</item>
+
+
+
+        <item>70</item>
+        <item>blank</item>
+        <item>density</item>
+        <item>of</item>
+        <item>The volume of the flask, in liters, is calculated using the density of water (dH20) at the appropriate temperature.</item>
+
+
+
+        <item>71</item>
+        <item>blank</item>
+        <item>detergent</item>
+        <item>blank</item>
+        <item>Detergent is a chemical substance, usually in the form of a powder or liquid, which is used for washing things such as clothes or dishes.</item>
+
+
+
+        <item>72</item>
+        <item>blank</item>
+        <item>diffraction</item>
+        <item>blank</item>
+        <item>a deviation in the direction of a wave at the edge of an obstacle in its path</item>
+
+
+
+        <item>73</item>
+        <item>x-ray</item>
+        <item>diffraction</item>
+        <item>pottern</item>
+        <item>X-ray diffraction pattern for DNA obtained first by Rosalind Franklin</item>
+
+
+
+        <item>74</item>
+        <item>blank</item>
+        <item>dilute</item>
+        <item>blank</item>
+        <item>A dilute liquid is very thin and weak, usually because it has had water added to it.</item>
+
+
+
+        <item>75</item>
+        <item>blank</item>
+        <item>dilute</item>
+        <item>solution</item>
+        <item>Henry\'s law is shown as dilute solution limit of nonideal mixture.</item>
+
+
+
+        <item>76</item>
+        <item>blank</item>
+        <item>dipole</item>
+        <item>blank</item>
+        <item>two electric charges or magnetic poles that have equal magnitudes but opposite signs and are separated by a small distance</item>
+
+
+
+        <item>77</item>
+        <item>blank</item>
+        <item>dipole</item>
+        <item>moments</item>
+        <item>Decide whether the symmetry of the molecule results in the cancellation of the dipole moments associated with the bonds.</item>
+
+
+
+        <item>78</item>
+        <item>blank</item>
+        <item>distill</item>
+        <item>blank</item>
+        <item>to make a liquid pure by heating it until it becomes a gas, then cooling it and collecting the drops of liquid that form</item>
+
+
+
+        <item>79</item>
+        <item>blank</item>
+        <item>electron</item>
+        <item>blank</item>
+        <item>An electron is a tiny particle of matter that is smaller than an atom and has a negative electrical charge.</item>
+
+
+
+        <item>80</item>
+        <item>valence</item>
+        <item>electron</item>
+        <item>blank</item>
+        <item>In the table, each dot represents an unshared valence electron.</item>
+
+
+
+        <item>81</item>
+        <item>unpaired</item>
+        <item>electron</item>
+        <item>blank</item>
+        <item>Unpaired electrons form bonds.</item>
+
+
+
+        <item>82</item>
+        <item>shell</item>
+        <item>electron</item>
+        <item>blank</item>
+        <item>Inner shell electrons contribute to bondings.</item>
+
+
+
+        <item>83</item>
+        <item>of</item>
+        <item>electron</item>
+        <item>distribution</item>
+		<item>Linus Pauling proposed a quantitative measure of electron distribution in
+bonds.</item>
+
+
+
+        <item>84</item>
+        <item>unshared</item>
+        <item>electron</item>
+        <item>pairs</item>
+        <item>Remember to include unshared electron pairs.</item>
+
+
+
+        <item>85</item>
+        <item>high</item>
+        <item>electron</item>
+        <item>density</item>
+		<item>All regions of high electron density, lone pairs and bonds, are
+included in a description of the electronic arrangement, but only the position of atoms are considered when reporting the shape of a molecule.</item>
+
+
+
+        <item>86</item>
+        <item>aligned</item>
+        <item>electron</item>
+        <item>spin</item>
+        <item>Aligned electron spins in a magnetic field: both paramagnetic and ferromagnetic samples</item>
+
+
+
+        <item>87</item>
+        <item>blank</item>
+        <item>electron</item>
+        <item>configuration</item>
+        <item>Deduce the electron configuration and bond order of the ion C2.</item>
+
+
+
+        <item>88</item>
+        <item>blank</item>
+        <item>electron</item>
+        <item>in</item>
+        <item>Describe the factors affecting the energy of an electron in a many-electron atom.</item>
+
+
+
+        <item>89</item>
+        <item>blank</item>
+        <item>electron</item>
+        <item>from</item>
+        <item>The minimum energy required to remove an electron from the ground state of a gaseous atom, molecule, or ion.</item>
+
+
+
+        <item>90</item>
+        <item>blank</item>
+        <item>electron</item>
+        <item>pairs</item>
+        <item>Are there any unshared electron pairs?</item>
+
+
+
+        <item>91</item>
+        <item>blank</item>
+        <item>electron</item>
+        <item>arrangements</item>
+        <item>Use the VSEPR model to identify the electron arrangements around C and O atoms.</item>
+
+
+
+        <item>92</item>
+        <item>blank</item>
+        <item>electron</item>
+        <item>affinity</item>
+        <item>Electron affinity</item>
+
+
+
+        <item>93</item>
+        <item>blank</item>
+        <item>electron</item>
+        <item>dot</item>
+        <item>lectron-dot structure</item>
+
+
+
+        <item>94</item>
+        <item>blank</item>
+        <item>electron</item>
+        <item>cloud</item>
+        <item>Distortion of electron cloud of anion toward the cation</item>
+
+
+
+        <item>95</item>
+        <item>blank</item>
+        <item>enthalpy</item>
+        <item>blank</item>
+        <item>a thermodynamic property of a system equal to the sum of its internal energy and the product of its pressure and volume</item>
+
+
+
+        <item>96</item>
+        <item>reaction</item>
+        <item>enthalpy</item>
+        <item>blank</item>
+        <item>Determining a reaction enthalpy from experimental data.</item>
+
+
+
+        <item>97</item>
+        <item>standard</item>
+        <item>enthalpy</item>
+        <item>blank</item>
+        <item>Standard enthalpy of formation</item>
+
+
+
+        <item>98</item>
+        <item>lattice</item>
+        <item>enthalpy</item>
+        <item>of</item>
+        <item>Using a Born-Haber cycle to calculate the lattice enthalpy of KCl crystal.</item>
+
+
+
+        <item>99</item>
+        <item>blank</item>
+        <item>enthalpy</item>
+        <item>of</item>
+        <item>Enthalpy of vaporization</item>
+
+
+
+        <item>100</item>
+        <item>blank</item>
+        <item>entropy</item>
+        <item>blank</item>
+        <item>a measurement of the energy that is present in a system or process but is not available to do work</item>
+
+
+
+        <item>101</item>
+        <item>molar</item>
+        <item>entropy</item>
+        <item>of</item>
+        <item>Standard Molar Entropy of Water at Various Temperatures</item>
+
+
+
+        <item>102</item>
+        <item>in</item>
+        <item>entropy</item>
+        <item>blank</item>
+        <item>Determine the total change in entropy.</item>
+
+
+
+        <item>103</item>
+        <item>blank</item>
+        <item>entropy</item>
+        <item>of</item>
+        <item>The entropy of an isolated system increases in the course of any spontaneous change.</item>
+
+
+
+        <item>104</item>
+        <item>blank</item>
+        <item>entropy</item>
+        <item>change</item>
+        <item>Calculating the entropy change due to an increase in temperature.</item>
+
+
+
+        <item>105</item>
+        <item>blank</item>
+        <item>entropy</item>
+        <item>increase</item>
+        <item>Entropy increases in a spontaneous process in an isolated system.</item>
+
+
+
+        <item>106</item>
+        <item>blank</item>
+        <item>equation</item>
+        <item>blank</item>
+        <item>An equation is a mathematical statement saying that two amounts or values are the same, for example 6x4=12x2.</item>
+
+
+
+        <item>107</item>
+        <item>rate</item>
+        <item>equation</item>
+        <item>of</item>
+        <item>The dependence of the rate the reaction on the concentration of the reactants may be expressed by a rate equation of the form.</item>
+
+
+
+        <item>108</item>
+        <item>balanced</item>
+        <item>equation</item>
+        <item>of</item>
+        <item>Write the balanced equation of the dissociation.</item>
+
+
+
+        <item>109</item>
+        <item>blank</item>
+        <item>equation</item>
+        <item>for</item>
+        <item>Give the equation for a general reaction.</item>
+
+
+
+        <item>110</item>
+        <item>blank</item>
+        <item>equilibrium</item>
+        <item>blank</item>
+        <item>Equilibrium is a balance between several different influences or aspects of a situation.</item>
+
+
+
+        <item>111</item>
+        <item>at</item>
+        <item>equilibrium</item>
+        <item>blank</item>
+        <item>Free energy reaches a minimum at equilibrium.</item>
+
+
+
+        <item>112</item>
+        <item>in</item>
+        <item>equilibrium</item>
+        <item>blank</item>
+        <item>The composition of the vapor vs. the composition of the liquid in equilibrium with each other</item>
+
+
+
+        <item>113</item>
+        <item>in</item>
+        <item>equilibrium</item>
+        <item>with</item>
+        <item>Express the composition of the vapor in equilibrium with the liquid phase of a binary liquid mixture.</item>
+
+
+
+        <item>114</item>
+        <item>blank</item>
+        <item>equilibrium</item>
+        <item>constant</item>
+        <item>Predicting the value of an equilibrium constant at a different temperature</item>
+
+
+
+        <item>115</item>
+        <item>blank</item>
+        <item>equilibrium</item>
+        <item>composition</item>
+        <item>Equilibrium composition is obtained according to the equilibrium constant that depends on temperature.</item>
+
+
+
+        <item>116</item>
+        <item>blank</item>
+        <item>equilibrium</item>
+        <item>mixture</item>
+        <item>Use this information and data from Example 10.7 to calculate the new composition of the equilibrium mixture.</item>
+
+
+
+        <item>117</item>
+        <item>blank</item>
+        <item>expansion</item>
+        <item>blank</item>
+        <item>Expansion is the process of becoming greater in size, number, or amount.</item>
+
+
+
+        <item>118</item>
+        <item>blank</item>
+        <item>expansion</item>
+        <item>of</item>
+        <item>Expansion of a gas against the piston</item>
+
+
+
+        <item>119</item>
+        <item>isothermal</item>
+        <item>expansion</item>
+        <item>against</item>
+        <item>No work is done during isothermal expansion against the vacuum.</item>
+
+
+
+        <item>120</item>
+        <item>blank</item>
+        <item>eyewash</item>
+        <item>blank</item>
+        <item>Eyewash is a fluid, commonly saline, used in the aid of rinsing of the eye. Eyewash may also describe the apparatus used to physically wash the eyes in the case that they may be contaminated by foreign materials or substances.</item>
+
+
+
+        <item>121</item>
+        <item>blank</item>
+        <item>filter</item>
+        <item>blank</item>
+        <item>A filter is a device through which a substance is passed when it is being filtered.</item>
+
+
+
+        <item>122</item>
+        <item>blank</item>
+        <item>fire blanket</item>
+        <item>blank</item>
+        <item>a large blanket-like piece of fire-resistant material such as fibreglass used in smothering a fire</item>
+
+
+
+        <item>123</item>
+        <item>blank</item>
+        <item>fire extinguisher</item>
+        <item>blank</item>
+        <item>A fire extinguisher is a metal cylinder which contains water or chemicals at high pressure which can put out fires.</item>
+
+
+
+        <item>124</item>
+        <item>blank</item>
+        <item>first aid</item>
+        <item>blank</item>
+        <item>First aid is simple medical treatment given as soon as possible to a person who is injured or who suddenly becomes ill.</item>
+
+
+
+        <item>125</item>
+        <item>blank</item>
+        <item>flame</item>
+        <item>blank</item>
+        <item>A flame is a hot bright stream of burning gas that comes from something that is burning.</item>
+
+
+
+        <item>126</item>
+        <item>blank</item>
+        <item>flask</item>
+        <item>blank</item>
+        <item>A flask is a bottle which you use for carrying drinks around with you.</item>
+
+
+
+        <item>127</item>
+        <item>round</item>
+        <item>flask</item>
+        <item>blank</item>
+        <item>Make a lid using aluminum foil a completely dried round flask.</item>
+
+
+
+        <item>128</item>
+        <item>erlenmeyer</item>
+        <item>flask</item>
+        <item>blank</item>
+        <item>Erlenmeyer flasks are used for mixing, transporting, and reacting but not for accurate measurements</item>
+
+
+
+        <item>129</item>
+        <item>blank</item>
+        <item>flask</item>
+        <item>with</item>
+        <item>Swirl the solution in the Erlenmeyer flask as you titrate and rinse the walls of the flask with distilled water from a wash bottle prior to the end point.</item>
+
+
+
+        <item>130</item>
+        <item>blank</item>
+        <item>formula</item>
+        <item>blank</item>
+        <item>A formula is a plan that is invented in order to deal with a particular problem.</item>
+
+
+
+        <item>131</item>
+        <item>blank</item>
+        <item>formula</item>
+        <item>units</item>
+        <item>Find formula units and the mass in the unit cell.</item>
+
+
+
+        <item>132</item>
+        <item>blank</item>
+        <item>formula</item>
+        <item>of</item>
+        <item>Give the VERSA formula of an NH3 molecule.</item>
+
+
+
+        <item>133</item>
+        <item>chemical</item>
+        <item>formula</item>
+        <item>blank</item>
+		<item>formula mass: The sum of the atomic masses of the elements
+in a chemical formula</item>
+
+
+
+        <item>134</item>
+        <item>blank</item>
+        <item>fume</item>
+        <item>blank</item>
+        <item>Fumes are the unpleasant and often unhealthy smoke and gases that are produced by fires or by things such as chemicals, fuel, or cooking.</item>
+
+
+
+        <item>135</item>
+        <item>blank</item>
+        <item>funnel</item>
+        <item>blank</item>
+        <item>A funnel is an object with a wide, circular top and a narrow short tube at the bottom. Funnels are used to pour liquids into containers which have a small opening, for example bottles.</item>
+
+
+
+        <item>136</item>
+        <item>blank</item>
+        <item>graduated cylinder</item>
+        <item>blank</item>
+        <item>A graduated cylinder, measuring cylinder or mixing cylinder is a piece of laboratory equipment used to measure the volume of a liquid.</item>
+
+
+
+        <item>137</item>
+        <item>blank</item>
+        <item>hydrogen bond</item>
+        <item>blank</item>
+        <item>a weak chemical bond between an electronegative atom, such as fluorine, oxygen, or nitrogen, and a hydrogen atom bound to another electronegative atom. Hydrogen bonds are responsible for the properties of water and many biological molecules</item>
+
+
+
+        <item>138</item>
+        <item>blank</item>
+        <item>ideal gas law</item>
+        <item>blank</item>
+		<item>The ideal gas law is the equation of state of a hypothetical ideal gas. The ideal gas law is often introduced in its common form:
+                                          PV = nRT
+where P is the pressure of the gas, V is the volume of the gas, n is the amount of substance of gas (also known as number of moles), T is the temperature of the gas and R is the ideal, or universal, gas constant.</item>
+
+
+
+        <item>139</item>
+        <item>blank</item>
+        <item>isomer</item>
+        <item>blank</item>
+        <item>a compound that exhibits isomerism with one or more other compounds</item>
+
+
+
+        <item>140</item>
+        <item>blank</item>
+        <item>lab coat</item>
+        <item>blank</item>
+        <item>A white coat worn by laboratory workers to protect day clothes from damage by spillage etc.</item>
+
+
+
+        <item>141</item>
+        <item>blank</item>
+        <item>label</item>
+        <item>blank</item>
+        <item>A label is a piece of paper or plastic that is attached to an object in order to give information about it.</item>
+
+
+
+        <item>142</item>
+        <item>blank</item>
+        <item>laboratory glassware</item>
+        <item>blank</item>
+        <item>Laboratory glassware refers to a variety of equipment, traditionally made of glass, used for scientific experiments and other work in science, especially in chemistry and biology laboratories.</item>
+
+
+
+        <item>143</item>
+        <item>blank</item>
+        <item>lid</item>
+        <item>blank</item>
+        <item>A lid is the top of a box or other container which can be removed or raised when you want to open the container.</item>
+
+
+
+        <item>144</item>
+        <item>blank</item>
+        <item>liquid</item>
+        <item>blank</item>
+        <item>A liquid is a substance which is not solid but which flows and can be poured, for example water.</item>
+
+
+
+        <item>145</item>
+        <item>of</item>
+        <item>liquid</item>
+        <item>blank</item>
+        <item>Thus, a small amount of liquid remains in the tip of the pipet after transfer of liquid</item>
+
+
+
+        <item>146</item>
+        <item>volatile</item>
+        <item>liquid</item>
+        <item>blank</item>
+        <item>Determine the molar mass (molecular weight) of the vapor of a volatile liquid.</item>
+
+
+
+        <item>147</item>
+        <item>heated</item>
+        <item>liquid</item>
+        <item>to</item>
+		<item>Some plates also contain a magnetic stirrer, allowing the heated liquid to be
+stirred simultaneously.</item>
+
+
+
+        <item>148</item>
+        <item>binary</item>
+        <item>liquid</item>
+        <item>mixture</item>
+        <item>Predicting the composition of the vapor in equilibrium with a binary liquid mixture.</item>
+
+
+
+        <item>149</item>
+        <item>blank</item>
+        <item>liquid</item>
+        <item>in</item>
+        <item>Wait until the liquid in the Round flask vaporize.</item>
+
+
+
+        <item>150</item>
+        <item>blank</item>
+        <item>liquid</item>
+        <item>or</item>
+        <item>A watch glass is a round, shallow concave piece of glass that can be used to hold liquid or solids for evaporation or it can be used as a lid for a beaker to prevent dirt from getting into a solution.</item>
+
+
+
+        <item>151</item>
+        <item>blank</item>
+        <item>liquid</item>
+        <item>phase</item>
+        <item>At 1 atm, there is no liquid phase and the solid sublimates to vapor directly.</item>
+
+
+
+        <item>152</item>
+        <item>blank</item>
+        <item>liquid</item>
+        <item>water</item>
+        <item>Confirm that liquid water and water vapor are in equilibrium when the temperature is 100C.</item>
+
+
+
+        <item>153</item>
+        <item>blank</item>
+        <item>lone pair</item>
+        <item>blank</item>
+        <item>a pair of valency electrons of opposite spin that are not shared between the atoms in a molecule and are responsible for the formation of coordinate bonds</item>
+
+
+
+        <item>154</item>
+        <item>blank</item>
+        <item>material safety data sheet (MSDS)</item>
+        <item>blank</item>
+        <item>material safety data sheet (MSDS), safety data sheet (SDS), or product safety data sheet (PSDS) is an important component of product stewardship and occupational safety and health. It is intended to provide</item>
+
+
+
+        <item>155</item>
+        <item>blank</item>
+        <item>mean</item>
+        <item>blank</item>
+        <item>The mean is a number that is the average of a set of numbers.</item>
+
+
+
+        <item>156</item>
+        <item>root</item>
+        <item>mean</item>
+        <item>square</item>
+        <item>You heat the gas until the root mean square speed of the molecules of the sample has been doubled.</item>
+
+
+
+        <item>157</item>
+        <item>blank</item>
+        <item>mixture</item>
+        <item>blank</item>
+        <item>A mixture of things consists of several different things together.</item>
+
+
+
+        <item>158</item>
+        <item>equilibrium</item>
+        <item>mixture</item>
+        <item>blank</item>
+        <item>Use this information and data from Example 10.7 to calculate the new composition of the equilibrium mixture.</item>
+
+
+
+        <item>159</item>
+        <item>liquid</item>
+        <item>mixture</item>
+        <item>blank</item>
+        <item>The Vapor Pressure of a Binary Liquid Mixture</item>
+
+
+
+        <item>160</item>
+        <item>reaction</item>
+        <item>mixture</item>
+        <item>blank</item>
+        <item>What are the equilibrium partial pressures of each substance in the reaction mixture?</item>
+
+
+
+        <item>161</item>
+        <item>binary</item>
+        <item>mixture</item>
+        <item>blank</item>
+        <item>Vapor pressure of a binary mixture</item>
+
+
+
+        <item>162</item>
+        <item>blank</item>
+        <item>mixture</item>
+        <item>of</item>
+        <item>The total pressure of a mixture of gases is the sum of the partial pressures of its component.</item>
+
+
+
+        <item>163</item>
+        <item>blank</item>
+        <item>molar mass</item>
+        <item>blank</item>
+        <item>In chemistry, the molar mass M is a physical property. It is defined as the mass of a given substance (chemical element or chemical compound) divided by its amount of substance. The base SI unit for molar mass is kg/mol. However, for historical reasons, molar masses are almost always expressed in g/mol.</item>
+
+
+
+        <item>164</item>
+        <item>blank</item>
+        <item>molecule</item>
+        <item>blank</item>
+        <item>A molecule is the smallest amount of a chemical substance which can exist by itself.</item>
+
+
+
+        <item>165</item>
+        <item>organic</item>
+        <item>molecule</item>
+        <item>blank</item>
+        <item>Heteroatom: Any atom other than carbon or hydrogen in an organic molecule.</item>
+
+
+
+        <item>166</item>
+        <item>diatomic</item>
+        <item>molecule</item>
+        <item>blank</item>
+        <item>Deducing the ground-state electron configuration and bond order of a diatomic molecule</item>
+
+
+
+        <item>167</item>
+        <item>each</item>
+        <item>molecule</item>
+        <item>blank</item>
+        <item>Describe the shape of each molecule.</item>
+
+
+
+        <item>168</item>
+        <item>different</item>
+        <item>molecule</item>
+        <item>with</item>
+        <item>Is there any other way to connect the atoms and sticks such that a different molecule with the same formula is formed?</item>
+
+
+
+        <item>169</item>
+        <item>blank</item>
+        <item>molecule</item>
+        <item>of</item>
+        <item>The light and scatter, be absorbed by the molecule of interest and re-emitted in any direction, or pass through the sample cell without interaction with the sample at all.</item>
+
+
+
+        <item>170</item>
+        <item>blank</item>
+        <item>molecule</item>
+        <item>containing</item>
+        <item>Aromatic: Any organic molecule containing a benzene ring</item>
+
+
+
+        <item>171</item>
+        <item>blank</item>
+        <item>nucleus</item>
+        <item>blank</item>
+        <item>The nucleus of an atom or cell is the central part of it.</item>
+
+
+
+        <item>172</item>
+        <item>atomic</item>
+        <item>nucleus</item>
+        <item>blank</item>
+        <item>Two years after Rutherford discovered the atomic nucleus in 1911, Mosely showed that the nuclear charge is whole number.</item>
+
+
+
+        <item>173</item>
+        <item>blank</item>
+        <item>nucleus</item>
+        <item>of</item>
+        <item>Assess the relative probability of finding an electron at a given distance from the nucleus of an atom.</item>
+
+
+
+        <item>174</item>
+        <item>blank</item>
+        <item>octet rule</item>
+        <item>blank</item>
+        <item>The octet rule is a chemical rule of thumb that states that atoms of low (&lt;20) atomic number tend to combine in such a way that they each have eight electrons in their valence shells, giving them the same electronic configuration as a noble gas. The rule is applicable to the main-group elements, especially carbon, nitrogen, oxygen, and the halogens, but also to metals such as sodium or magnesium.</item>
+
+
+
+        <item>175</item>
+        <item>blank</item>
+        <item>odor</item>
+        <item>blank</item>
+        <item>a smell, especially one that is unpleasant</item>
+
+
+
+        <item>176</item>
+        <item>blank</item>
+        <item>orbital</item>
+        <item>blank</item>
+        <item>connected with the orbit of a planet or an object in space</item>
+
+
+
+        <item>177</item>
+        <item>molecular</item>
+        <item>orbital</item>
+        <item>blank</item>
+        <item>Construct and interpret a molecular orbital energy-level diagram for a homonuclear diatomic species.</item>
+
+
+
+        <item>178</item>
+        <item>bonding</item>
+        <item>orbital</item>
+        <item>blank</item>
+        <item>Bonding Orbital</item>
+
+
+
+        <item>179</item>
+        <item>antibonding</item>
+        <item>orbital</item>
+        <item>of</item>
+        <item>Antibonding orbital of H2</item>
+
+
+
+        <item>180</item>
+        <item>blank</item>
+        <item>orbital</item>
+        <item>angular</item>
+        <item>Orbital angular momentum around an arbitrary axis</item>
+
+
+
+        <item>181</item>
+        <item>blank</item>
+        <item>orbital</item>
+        <item>in</item>
+        <item>If more than one orbital in a subshell is available, add electrons with parallel spins to different orbitals of that subshell rather than pairing two electrons in one of the orbitals.</item>
+
+
+
+        <item>182</item>
+        <item>blank</item>
+        <item>oven</item>
+        <item>blank</item>
+        <item>An oven is a device for cooking that is like a box with a door. You heat it and cook food inside it.</item>
+
+
+
+        <item>183</item>
+        <item>blank</item>
+        <item>pair</item>
+        <item>blank</item>
+        <item>A pair of things are two things of the same size and shape that are used together or are both part of something, for example shoes, earrings, or parts of the body.</item>
+
+
+
+        <item>184</item>
+        <item>electron</item>
+        <item>pair</item>
+        <item>blank</item>
+        <item>The valence-shell electron-pair repulsion model</item>
+
+
+
+        <item>185</item>
+        <item>a</item>
+        <item>pair</item>
+        <item>of</item>
+        <item>We will use a line instead of two dots to represent a pair of electrons when they are in a covalent bond.</item>
+
+
+
+        <item>186</item>
+        <item>lone</item>
+        <item>pair</item>
+        <item>electron</item>
+        <item>Excitation of a lone-pair electron on the oxygen atom</item>
+
+
+
+        <item>187</item>
+        <item>blank</item>
+        <item>phase</item>
+        <item>blank</item>
+        <item>A phase is a particular stage in a process or in the gradual development of something.</item>
+
+
+
+        <item>188</item>
+        <item>gas</item>
+        <item>phase</item>
+        <item>blank</item>
+        <item>Energy needed to remove an electron from an atom in the gas phase.</item>
+
+
+
+        <item>189</item>
+        <item>liquid</item>
+        <item>phase</item>
+        <item>of</item>
+        <item>Express the composition of the vapor in equilibrium with the liquid phase of a binary liquid mixture.</item>
+
+
+
+        <item>190</item>
+        <item>blank</item>
+        <item>phase</item>
+        <item>diagram</item>
+        <item>The phase diagram for water</item>
+
+
+
+        <item>191</item>
+        <item>blank</item>
+        <item>phase</item>
+        <item>transitions</item>
+        <item>Inclusion of phase transitions (solid-liquid-vapor)</item>
+
+
+
+        <item>192</item>
+        <item>blank</item>
+        <item>physical</item>
+        <item>blank</item>
+        <item>Physical qualities, actions, or things are connected with a person\'s body, rather than with their mind.</item>
+
+
+
+        <item>193</item>
+        <item>of</item>
+        <item>physical</item>
+        <item>change</item>
+        <item>The Enthalpy of Physical Change</item>
+
+
+
+        <item>194</item>
+        <item>blank</item>
+        <item>physical</item>
+        <item>state</item>
+        <item>Change from one form of physical state to another at the same temperature</item>
+
+
+
+        <item>195</item>
+        <item>blank</item>
+        <item>physical</item>
+        <item>properties</item>
+        <item>Unlike covalent compounds, which can be identified using physical properties like boiling point and refractive index, ionic compounds are more appropriately identified with their chemical properties.</item>
+
+
+
+        <item>196</item>
+        <item>blank</item>
+        <item>polarity</item>
+        <item>blank</item>
+        <item>If there is a polarity between two people or things, they are completely different from each other in some way.</item>
+
+
+
+        <item>197</item>
+        <item>blank</item>
+        <item>PPE</item>
+        <item>blank</item>
+        <item>Personal protective equipment (PPE) refers to protective clothing, helmets, goggles, or other garments or equipment designed to protect the wearer\'s body from injury.</item>
+
+
+
+        <item>198</item>
+        <item>blank</item>
+        <item>precision</item>
+        <item>blank</item>
+        <item>If you do something with precision, you do it exactly as it should be done.</item>
+
+
+
+        <item>199</item>
+        <item>blank</item>
+        <item>pressure</item>
+        <item>blank</item>
+        <item>Pressure is force that you produce when you press hard on something.</item>
+
+
+
+        <item>200</item>
+        <item>osmotic</item>
+        <item>pressure</item>
+        <item>blank</item>
+        <item>Calculate its freezing point, boiling point at 1 atm, and osmotic pressure.</item>
+
+
+
+        <item>201</item>
+        <item>constant</item>
+        <item>pressure</item>
+        <item>blank</item>
+        <item>The process is performed at constant pressure.</item>
+
+
+
+        <item>202</item>
+        <item>atmospheric</item>
+        <item>pressure</item>
+        <item>blank</item>
+        <item>Calculate the minimum atmospheric pressure, assuming that oxygen exerts about 21% of the atmospheric pressure.</item>
+
+
+
+        <item>203</item>
+        <item>standard</item>
+        <item>pressure</item>
+        <item>blank</item>
+        <item>The conditions of standard temperature and standard pressure are abbreviated as STP.</item>
+
+
+
+        <item>204</item>
+        <item>partial</item>
+        <item>pressure</item>
+        <item>of</item>
+        <item>At the elevation, 2900 m, of Bear Lake in Rocky Mountain National Park, the partial pressure of oxygen is 0.14 atm</item>
+
+
+
+        <item>205</item>
+        <item>vapor</item>
+        <item>pressure</item>
+        <item>of</item>
+        <item>Vapor pressure of ethanol</item>
+
+
+
+        <item>206</item>
+        <item>total</item>
+        <item>pressure</item>
+        <item>of</item>
+        <item>The total pressure of a mixture of gases is the sum of the partial pressures of its component.</item>
+
+
+
+        <item>207</item>
+        <item>blank</item>
+        <item>pressure</item>
+        <item>lowering</item>
+		<item>Vapor pressure lowering of a solvent by a nonvolatile solute in solution in a
+barometer tube</item>
+
+
+
+        <item>208</item>
+        <item>blank</item>
+        <item>pressure</item>
+        <item>with</item>
+        <item>The Variation of Vapor Pressure with Temperature</item>
+
+
+
+        <item>209</item>
+        <item>blank</item>
+        <item>pressure</item>
+        <item>at</item>
+        <item>The pressure at the bottom of a fluid column</item>
+
+
+
+        <item>210</item>
+        <item>blank</item>
+        <item>principle</item>
+        <item>blank</item>
+        <item>a general or scientific law that explains how something works or why something happens</item>
+
+
+
+        <item>211</item>
+        <item>blank</item>
+        <item>process</item>
+        <item>blank</item>
+        <item>A process is a series of actions which are carried out in order to achieve a particular result.</item>
+
+
+
+        <item>212</item>
+        <item>reversible</item>
+        <item>process</item>
+        <item>blank</item>
+        <item>Simulating a reversible process</item>
+
+
+
+        <item>213</item>
+        <item>spontaneous</item>
+        <item>process</item>
+        <item>in</item>
+        <item>Entropy increases in a spontaneous process in an isolated system.</item>
+
+
+
+        <item>214</item>
+        <item>blank</item>
+        <item>process</item>
+        <item>at</item>
+        <item>Use the change in Gibbs free energy to determine the spontaneity of a process at a given temperature.</item>
+
+
+
+        <item>215</item>
+        <item>blank</item>
+        <item>quantum</item>
+        <item>blank</item>
+        <item>In physics, quantum theory and quantum mechanics are concerned with the behavior of atomic particles.</item>
+
+
+
+        <item>216</item>
+        <item>orbital</item>
+        <item>quantum</item>
+        <item>number</item>
+        <item>Orbital quantum number</item>
+
+
+
+        <item>217</item>
+        <item>blank</item>
+        <item>radiation</item>
+        <item>blank</item>
+        <item>Radiation consists of very small particles of a radioactive substance. Large amounts of radiation can cause illness and death.</item>
+
+
+
+        <item>218</item>
+        <item>electromagnetic</item>
+        <item>radiation</item>
+        <item>blank</item>
+        <item>An absorption spectrum is produced when continuous eletromagnetic radiation.</item>
+
+
+
+        <item>219</item>
+        <item>of</item>
+        <item>radiation</item>
+        <item>blank</item>
+        <item>Rem: A unit for measuring the ability of radiation to harm living tissue.</item>
+
+
+
+        <item>220</item>
+        <item>blank</item>
+        <item>reactant</item>
+        <item>blank</item>
+        <item>a substance that participates in a chemical reaction</item>
+
+
+
+        <item>221</item>
+        <item>blank</item>
+        <item>reagent</item>
+        <item>blank</item>
+        <item>A reagent is a substance that is used to cause a chemical reaction. Reagents are often used in order to indicate the presence of another substance.</item>
+
+
+
+        <item>222</item>
+        <item>blank</item>
+        <item>round off</item>
+        <item>blank</item>
+        <item>to end or complete something in an acceptable way</item>
+
+
+
+        <item>223</item>
+        <item>blank</item>
+        <item>safety goggles</item>
+        <item>blank</item>
+        <item>Goggles or safety glasses are forms of protective eyewear that usually enclose or protect the area surrounding the eye in order to prevent particulates, water or chemicals from striking the eyes. They are used in chemistry laboratories and in woodworking.</item>
+
+
+
+        <item>224</item>
+        <item>blank</item>
+        <item>scale</item>
+        <item>blank</item>
+        <item>If you refer to the scale of something, you are referring to its size or extent, especially when it is very big.</item>
+
+
+
+        <item>225</item>
+        <item>blank</item>
+        <item>scientific notation</item>
+        <item>blank</item>
+        <item>Scientific notation is a way of writing numbers that are too big or too small to be conveniently written in decimal form. Scientific notation has a number of useful properties and is commonly used in calculators and by scientists, mathematicians and engineers.</item>
+
+
+
+        <item>226</item>
+        <item>blank</item>
+        <item>shell</item>
+        <item>blank</item>
+        <item>The shell of a nut or egg is the hard covering which surrounds it.</item>
+
+
+
+        <item>227</item>
+        <item>valence</item>
+        <item>shell</item>
+        <item>blank</item>
+        <item>In each case the atom ends up with a full valence shell.</item>
+
+
+
+        <item>228</item>
+        <item>inner</item>
+        <item>shell</item>
+        <item>electrons</item>
+        <item>Inner shell electrons contribute to bondings.</item>
+
+
+
+        <item>229</item>
+        <item>blank</item>
+        <item>shell</item>
+        <item>with</item>
+		<item>All the atoms of the main-group elements in a given period have a valence shell
+with the same principal quantum number, which is equal to the period number.</item>
+
+
+
+        <item>230</item>
+        <item>blank</item>
+        <item>solid</item>
+        <item>blank</item>
+        <item>A solid substance or object stays the same shape whether it is in a container or not.</item>
+
+
+
+        <item>231</item>
+        <item>ionic</item>
+        <item>solid</item>
+        <item>blank</item>
+        <item>Predict the structure of an ionic solid from the relative radii of the ions.</item>
+
+
+
+        <item>232</item>
+        <item>of</item>
+        <item>solid</item>
+        <item>compounds</item>
+        <item>The variation of solubilities of solid compounds in water with temperature.</item>
+
+
+
+        <item>233</item>
+        <item>blank</item>
+        <item>solution</item>
+        <item>blank</item>
+        <item>a liquid in which something is dissolved</item>
+
+
+
+        <item>234</item>
+        <item>acid</item>
+        <item>solution</item>
+        <item>blank</item>
+        <item>Fill the calibrated Pasteur pipet with stearic aicd solution.</item>
+
+
+
+        <item>235</item>
+        <item>dilute</item>
+        <item>solution</item>
+        <item>blank</item>
+        <item>Formation of a dilute solution</item>
+
+
+
+        <item>236</item>
+        <item>blank</item>
+        <item>solution</item>
+        <item>of</item>
+        <item>When a solution of stearic acid in a volatile hydrocarbon solvent is placed on water, the stearic acid spreads out on the surface of the water with its-COOH group attracted to the H2O molecules.</item>
+
+
+
+        <item>237</item>
+        <item>blank</item>
+        <item>solution</item>
+        <item>in</item>
+		<item>Swirl the solution in the Erlenmeyer flask as you titrate and rinse the walls of the flask with distilled water from a wash bottle prior to the end
+point.</item>
+
+
+
+        <item>238</item>
+        <item>drain</item>
+        <item>solution</item>
+        <item>from</item>
+        <item>Empty valve drains solution from the pipet.</item>
+
+
+
+        <item>239</item>
+        <item>blank</item>
+        <item>solvent</item>
+        <item>blank</item>
+        <item>A solvent is a liquid that can dissolve other substances.</item>
+
+
+
+        <item>240</item>
+        <item>of</item>
+        <item>solvent</item>
+        <item>blank</item>
+        <item>Calculating the mass of solute in a given mass of solvent from the molality.</item>
+
+
+
+        <item>241</item>
+        <item>blank</item>
+        <item>solvent</item>
+        <item>molecules</item>
+        <item>Some solvent molecules move apart forming cavities.</item>
+
+
+
+        <item>242</item>
+        <item>blank</item>
+        <item>spatula</item>
+        <item>blank</item>
+        <item>tool with a broad flat blade used for mixing and spreading things, especially in cooking and painting</item>
+
+
+
+        <item>243</item>
+        <item>blank</item>
+        <item>spontaneous</item>
+        <item>blank</item>
+        <item>done naturally, without being forced or practiced</item>
+
+
+
+        <item>244</item>
+        <item>blank</item>
+        <item>spontaneous</item>
+        <item>process</item>
+        <item>Entropy increases in a spontaneous process in an isolated system.</item>
+
+
+
+        <item>245</item>
+        <item>blank</item>
+        <item>spontaneous</item>
+        <item>change</item>
+        <item>The system undergoes a spontaneous change.</item>
+
+
+
+        <item>246</item>
+        <item>blank</item>
+        <item>spontaneous</item>
+        <item>reaction</item>
+        <item>However, the generation of ATP from ADP is nonspontaneous and must itself be coupled to a spontaneous reaction.</item>
+
+
+
+        <item>247</item>
+        <item>blank</item>
+        <item>standard deviation</item>
+        <item>blank</item>
+        <item>the amount by which measurements in a set vary from the average for the set</item>
+
+
+
+        <item>248</item>
+        <item>blank</item>
+        <item>stir</item>
+        <item>blank</item>
+        <item>If you stir a liquid or other substance, you move it around or mix it in a container using something such as a spoon.</item>
+
+
+
+        <item>249</item>
+        <item>blank</item>
+        <item>structure</item>
+        <item>blank</item>
+        <item>The structure of something is the way in which it is made, built, or organized.</item>
+
+
+
+        <item>250</item>
+        <item>drawn</item>
+        <item>structure</item>
+        <item>blank</item>
+        <item>On the Structure toolbar, click 3D Optimization to obtain a 3D model of the drawn structure.</item>
+
+
+
+        <item>251</item>
+        <item>resonance</item>
+        <item>structure</item>
+        <item>blank</item>
+        <item>Selecting the dominant resonance structure for a molecule</item>
+
+
+
+        <item>252</item>
+        <item>crystal</item>
+        <item>structure</item>
+        <item>blank</item>
+        <item>Estimate the density of sodium chloride from its crystal structure.</item>
+
+
+
+        <item>253</item>
+        <item>Lewis</item>
+        <item>structure</item>
+        <item>of</item>
+        <item>Draw the Lewis structure of CH4, NH3, H2O and HF on the Report sheet.</item>
+
+
+
+        <item>254</item>
+        <item>Lewis</item>
+        <item>structure</item>
+        <item>for</item>
+        <item>Write the Lewis structure for acetic acid.</item>
+
+
+
+        <item>255</item>
+        <item>entire</item>
+        <item>structure</item>
+        <item>with</item>
+        <item>You can rotate or flip the entire structure with a single button click using a set of tools on the structure toolbar.</item>
+
+
+
+        <item>256</item>
+        <item>blank</item>
+        <item>structure</item>
+        <item>toolbar</item>
+        <item>On the structure toolbar, click Select/Move, and then move the selected fragment to the appropriate position.</item>
+
+
+
+        <item>257</item>
+        <item>blank</item>
+        <item>surroundings</item>
+        <item>blank</item>
+        <item>When you are describing the place where you are at the moment, or the place where you live, you can refer to it as your surroundings.</item>
+
+
+
+        <item>258</item>
+        <item>blank</item>
+        <item>systematic error</item>
+        <item>blank</item>
+        <item>Systematic errors are biases in measurement which lead to the situation where the mean of many separate measurements differs significantly from the actual value of the measured attribute.</item>
+
+
+
+        <item>259</item>
+        <item>blank</item>
+        <item>temperature</item>
+        <item>blank</item>
+        <item>The temperature of something is a measure of how hot or cold it is.</item>
+
+
+
+        <item>260</item>
+        <item>with</item>
+        <item>temperature</item>
+        <item>blank</item>
+        <item>Describe the structure of a liquid and explain how viscosity and surface tension vary with temperature and the strength of intermolecular forces</item>
+
+
+
+        <item>261</item>
+        <item>constant</item>
+        <item>temperature</item>
+        <item>blank</item>
+        <item>The rate of the reaction at constant temperature and ionic strength can be expressed as the change in concentration of a reagent or product over the change in time and can be equated to the rate law expression.</item>
+
+
+
+        <item>262</item>
+        <item>same</item>
+        <item>temperature</item>
+        <item>blank</item>
+        <item>Change from one form of physical state to another at the same temperature</item>
+
+
+
+        <item>263</item>
+        <item>low</item>
+        <item>temperature</item>
+        <item>blank</item>
+        <item>Freezing of water to ice at low temperature</item>
+
+
+
+        <item>264</item>
+        <item>minimum</item>
+        <item>temperature</item>
+        <item>blank</item>
+		<item>Predict the minimum temperature at which an endothermic reaction can occur
+spontaneously.</item>
+
+
+
+        <item>265</item>
+        <item>increasing</item>
+        <item>temperature</item>
+        <item>blank</item>
+        <item>Solubility of a gas in water decreases with increasing temperature</item>
+
+
+
+        <item>266</item>
+        <item>blank</item>
+        <item>temperature</item>
+        <item>of</item>
+        <item>They observed that an increase in the temperature of a fixed quantity of gas caused an increase in its volume if the pressure remained constant, or caused an increase in the pressure if the volume remained constant.</item>
+
+
+
+        <item>267</item>
+        <item>blank</item>
+        <item>temperature</item>
+        <item>at</item>
+		<item>A change in entropy is equal to the heat supplied reversibly to a system
+divided by the temperature at which the transfer takes place.</item>
+
+
+
+        <item>268</item>
+        <item>blank</item>
+        <item>temperature</item>
+        <item>dependence</item>
+        <item>Temperature dependence of the three gases at the same temperature</item>
+
+
+
+        <item>269</item>
+        <item>blank</item>
+        <item>word tube</item>
+        <item>blank</item>
+        <item>A word tube is a small tube-shaped container made from glass. word tubes are used in laboratories.</item>
+
+
+
+        <item>270</item>
+        <item>blank</item>
+        <item>thermodynamics</item>
+        <item>blank</item>
+        <item>Thermodynamics is the branch of physics that is concerned with the relationship between heat and other forms of energy.</item>
+
+
+
+        <item>271</item>
+        <item>blank</item>
+        <item>thermodynamics</item>
+        <item>of</item>
+        <item>Thermodynamics of vapor pressure lowering of solvent in solution</item>
+
+
+
+        <item>272</item>
+        <item>blank</item>
+        <item>thermometer</item>
+        <item>blank</item>
+        <item>A thermometer is an instrument for measuring temperature. It usually consists of a narrow glass tube containing a thin column of a liquid which rises and falls as the temperature rises and falls.</item>
+
+
+
+        <item>273</item>
+        <item>blank</item>
+        <item>torr</item>
+        <item>blank</item>
+        <item>unit of pressure equal to one millimetre of mercury (133.322 newtons per square metre)</item>
+
+
+
+        <item>274</item>
+        <item>blank</item>
+        <item>torr</item>
+        <item>at</item>
+        <item>A certain liquid has a vapor pressure of 92.0 Torr at 23.0 °C and 353.0 Torr at 45.0 °C.</item>
+
+
+
+        <item>275</item>
+        <item>blank</item>
+        <item>toxic</item>
+        <item>blank</item>
+        <item>A toxic substance is poisonous.</item>
+
+
+
+        <item>276</item>
+        <item>blank</item>
+        <item>trial</item>
+        <item>blank</item>
+        <item>the process of wording the ability, quality, or performance of someone or something, especially before you make a final decision about them</item>
+
+
+
+        <item>277</item>
+        <item>blank</item>
+        <item>tweezers</item>
+        <item>blank</item>
+        <item>Tweezers are a small tool that you use for tasks such as picking up small objects or pulling out hairs. Tweezers consist of two strips of metal or plastic joined together at one end.</item>
+
+
+
+        <item>278</item>
+        <item>blank</item>
+        <item>valence</item>
+        <item>blank</item>
+        <item>a measurement of the power of an atom to combine with others, by the number of hydrogen atoms it can combine with or displace</item>
+
+
+
+        <item>279</item>
+        <item>of</item>
+        <item>valence</item>
+        <item>blank</item>
+        <item>Molecular shape determined by numbers of valence electrons around atoms.</item>
+
+
+
+        <item>280</item>
+        <item>expanded</item>
+        <item>valence</item>
+        <item>blank</item>
+        <item>Give the number of electrons in the expanded valence shell.</item>
+
+
+
+        <item>281</item>
+        <item>blank</item>
+        <item>valence</item>
+        <item>electrons</item>
+        <item>Determining the valence electrons</item>
+
+
+
+        <item>282</item>
+        <item>blank</item>
+        <item>valence</item>
+        <item>shell</item>
+        <item>Then pair dots until all valence-shell electrons used.</item>
+
+
+
+        <item>283</item>
+        <item>blank</item>
+        <item>vapor</item>
+        <item>blank</item>
+        <item>Vapor consists of tiny drops of water or other liquids in the air, which appear as mist.</item>
+
+
+
+        <item>284</item>
+        <item>water</item>
+        <item>vapor</item>
+        <item>blank</item>
+        <item>Troposphere: The atmospheric layer closest to the Earth\'s surface, containing 90 percent of the atmosphere\'s mass and essentially all water vapor and clouds.</item>
+
+
+
+        <item>285</item>
+        <item>of</item>
+        <item>vapor</item>
+        <item>pressure</item>
+        <item>The Variation of Vapor Pressure with Temperature</item>
+
+
+
+        <item>286</item>
+        <item>blank</item>
+        <item>vapor</item>
+        <item>in</item>
+        <item>Pressure of a vapor in equilibrium with its liquid phase at a given temperature</item>
+
+
+
+        <item>287</item>
+        <item>blank</item>
+        <item>vapor</item>
+        <item>pressure</item>
+        <item>Vapor pressure increases with increasing temperature.</item>
+
+
+
+        <item>288</item>
+        <item>blank</item>
+        <item>ventilate</item>
+        <item>blank</item>
+        <item>If you ventilate a room or building, you allow fresh air to get into it.</item>
+
+
+
+        <item>289</item>
+        <item>blank</item>
+        <item>wash bottle</item>
+        <item>blank</item>
+        <item>A wash bottle is a squeeze bottle with a nozzle, used to rinse various pieces of laboratory glassware, such as word tubes and round bottom flasks.</item>
+
+
+
+        <item>290</item>
+        <item>blank</item>
+        <item>watch glass</item>
+        <item>blank</item>
+        <item>A watch glass is a circular, slightly convex-concave piece of glass used in chemistry as a surface to evaporate a liquid, to hold solids while being weighed, or as a cover for a beaker.</item>
+
+
+
+        <item>291</item>
+        <item>blank</item>
+        <item>wipe someone/something out</item>
+        <item>blank</item>
+        <item>to destroy or remove someone or something completely</item>
+
+
+    </string-array>
+</resources>
