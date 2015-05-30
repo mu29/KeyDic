@@ -31,10 +31,31 @@ public class Word {
         return null;
     }
 
+    public static Word search(String _left, String _center, String _right) {
+        for (Word word : wordList) {
+            if (!word.mCenter.equals(_center))
+                continue;
+
+            if (!word.mLeft.equals(_left))
+                continue;
+
+            if (!word.mRight.equals(_right))
+                continue;
+
+            return word;
+        }
+
+        return null;
+    }
+
     public static String[] getAllWords() {
-        String[] values = new String[wordList.size()];
+        ArrayList<String> words = new ArrayList<>();
         for (int i = 0; i < wordList.size(); i++)
-            values[i] = wordList.get(i).getCenter();
+            if (!words.contains(wordList.get(i).getCenter()))
+                words.add(wordList.get(i).getCenter());
+
+        String[] values = new String[words.size()];
+        words.toArray(values);
 
         return values;
     }
@@ -45,14 +66,16 @@ public class Word {
             if (!word.mCenter.equals(_center))
                 continue;
 
-            if (!_left.equals("") && word.mLeft.equals(_left))
-                words.add(word);
+            if (!words.contains(word)) {
+                if (!_left.equals("") && word.mLeft.equals(_left))
+                    words.add(word);
 
-            if (!_right.equals("") && word.mRight.equals(_right))
-                words.add(word);
+                if (!_right.equals("") && word.mRight.equals(_right))
+                    words.add(word);
 
-            if (_left.equals("") && _right.equals(""))
-                words.add(word);
+                if (_left.equals("") && _right.equals(""))
+                    words.add(word);
+            }
         }
 
         return words;
