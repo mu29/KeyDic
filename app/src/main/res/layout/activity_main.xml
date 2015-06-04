@@ -4,7 +4,8 @@
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
     android:paddingBottom="@dimen/activity_vertical_margin"
-    tools:context="nimbus.keydic.MainActivity">
+    tools:context="nimbus.keydic.MainActivity"
+    android:background="@drawable/bg">
 
     <Button
         android:id="@+id/btn_left"
@@ -12,14 +13,25 @@
         android:layout_toLeftOf="@+id/btn_center"
         android:layout_alignBottom="@+id/btn_center"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content" />
+        android:layout_height="wrap_content"
+        android:background="#0277BD"
+        android:textColor="#FFFFFF"
+        android:textColorHighlight="#ffeb3b" />
 
     <Button
         android:id="@+id/btn_center"
         android:text="CENTER"
         android:layout_centerHorizontal="true"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content" />
+        android:layout_height="wrap_content"
+        android:layout_marginTop="120dp"
+        android:background="#0277BD"
+        android:textColor="#ffeb3b"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:focusable="false"
+        android:layout_marginBottom="40dp"
+        android:textColorHighlight="#ffeb3b" />
 
     <Button
         android:id="@+id/btn_right"
@@ -27,27 +39,47 @@
         android:layout_toRightOf="@+id/btn_center"
         android:layout_alignBottom="@+id/btn_center"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content" />
+        android:layout_height="wrap_content"
+        android:background="#0277BD"
+        android:textColor="#FFFFFF"
+        android:textColorHighlight="#ffeb3b" />
+
+    <Button
+        android:id="@+id/btn_bookmark"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/good"
+        android:backgroundTint="#FFFFFF"
+        android:clickable="true"
+        android:width="20dp"
+        android:minHeight="20dp"
+        android:maxWidth="20dp"
+        android:minWidth="20dp"
+        android:maxHeight="20dp"
+        android:nestedScrollingEnabled="false"
+        android:layout_alignBaseline="@+id/tv_combine"
+        android:layout_alignBottom="@+id/tv_combine"
+        android:layout_alignRight="@+id/tv_combine"
+        android:layout_alignEnd="@+id/tv_combine"
+        android:focusable="true"
+        android:textColorHighlight="#ffeb3b"/>
 
     <TextView
         android:id="@+id/tv_combine"
+        android:textColor="#FFFFFF"
         android:layout_below="@+id/btn_center"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content" />
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp" />
 
     <TextView
         android:id="@+id/tv_example"
         android:layout_below="@+id/tv_combine"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content" />
+        android:layout_height="wrap_content"
+        android:textColor="#FFFFFF"
+        android:layout_marginTop="50dp" />
 
-    <Button
-        android:id="@+id/btn_bookmark"
-        android:text="BOOKMARK +"
-        android:layout_centerHorizontal="true"
-        android:layout_below="@+id/tv_example"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content" />
 
 
 </RelativeLayout>

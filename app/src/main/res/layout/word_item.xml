@@ -9,12 +9,17 @@
         android:textSize="17sp"
         android:text="item"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content" />
+        android:layout_height="wrap_content"
+        android:textColor="#000000" />
     <Button
         android:id="@+id/btn_delete"
-        android:layout_gravity="center"
+        android:layout_gravity="center|right"
         android:text="x"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content" />
+        android:layout_height="wrap_content"
+        android:background="#1a237e"
+        android:textSize="10sp"
+        android:textColor="#FFFFFF"
+        android:layout_marginTop="5dp" />
 
 </LinearLayout>
